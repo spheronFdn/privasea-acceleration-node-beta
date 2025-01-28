@@ -22,5 +22,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}/privasea-acceleration-node-beta:latest
-            ghcr.io/${{ github.repository }}/privasea-acceleration-node-beta:${{ github.sha }}
+            ghcr.io/spheronfdn/privasea-acceleration-node-beta:latest
+            ghcr.io/spheronfdn/privasea-acceleration-node-beta:${{ github.sha }}
